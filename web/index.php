@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pieteikšanās</title>
 </head>
 <body>
     <h1>Piesakies webināram!</h1>
@@ -35,8 +35,6 @@
             <div>
                 <label for="yes">Jā</label>
                 <input type="radio" name="confim" id="yes" value="yes">
-            </div>
-            <div>
                 <label for="no">Nē</label>
                 <input type="radio" name="confirm" id="no" value="no">
             </div>
@@ -46,6 +44,9 @@
             <input type="submit" value="Iesniegt!">
         </div>
     </form>
+    <br>
+    <br>
+    <a href="blog.php">Uz dienasgrāmatu</a>
     
 
 </body>
