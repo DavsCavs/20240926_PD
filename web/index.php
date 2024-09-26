@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pieteikšanās</title>
+    <script src="javascript/app.js"></script>
 </head>
 <body>
     <h1>Piesakies webināram!</h1>
@@ -44,6 +45,11 @@
             <input type="submit" value="Iesniegt!">
         </div>
     </form>
+    <br>
+    <br>
+    <h2>Jau reģistrējušies</h2>
+    <div>
+    </div>
     <br>
     <br>
     <a href="blog.php">Uz dienasgrāmatu</a>

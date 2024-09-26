@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dienasgrāmata</title>
-    
+    <script src="css/styles.css"></script>
 </head>
 <body>
-    <h1>Tiešsaistes dienasgrāmata</h1>
+    <h1 >Tiešsaistes dienasgrāmata</h1>
     <br>
     <br>
     <h2>Biogrāfija</h2>
