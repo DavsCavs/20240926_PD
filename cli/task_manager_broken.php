@@ -3,11 +3,15 @@
 class Task {
     private $id;
     private $title;
+    private $description;
 
-    public function __construct($id, $title) {
+    public function __construct($id, $title, $description) {
         $this->id = $id;
         $this->title = $title;
         $this->description = $description;
+    }
+    public function setId($id){
+        $this->id = $id;
     }
 
     public function setTitle($title) {
@@ -45,7 +49,7 @@ function createTask(&$tasks) {
     $lastKey = key($tasks);
     $id = $lastKey + 1;
 
-    $tasks[$id] = new Task();
+    $tasks[$id] = new $task($tasks);
     echo "Task Created.\n";
 }
 
